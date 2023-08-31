@@ -17,7 +17,7 @@
   tanpa harus menunggu proses Asynchronous selesai.
 - Proses Asynchronous juga bisa disebut Non-Blocking.
 
-# About CallBack
+## About CallBack
 
 - Callback, merupakan mekanisme untuk memanggil kembali kode yang ada di program dari proses Async
 - Callback biasanya dibuat dalam bentuk function as parameter, dan parameter function tersebut akan dieksekusi saat proses Async selesai
@@ -26,5 +26,5 @@
 --
 Issue
 
--[x] requst done
--[] tidak bisa get json nya
+- [x] requst done
+- [] tidak bisa get json nya
