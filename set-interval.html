@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Set Timeout</title>
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <script>
+      function setTime() {
+        const header = document.getElementById("header");
+        header.textContent = new Date().toString();
+        // this using for html in javascript
+        //document.body.appendChild(header);
+      }
+      setInterval(setTime, 1000);
+      console.info("Program sudah Selesai");
+    </script>
+  </body>
+</html>
